@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <form action="" class="form-horizontal register-form">
+        <div class="alert alert-success fs14">
+          <strong>Thanks for registering for the <span id="chosenTrack"></span> Track <span id="student"></span></strong>.<br>
+          Reason for joining - <span id="reason"></span> <br>
+          Languages - <span id="myLanguages"></span>
+        </div>
+        <div class="form-group">
+          <label class="control-lebel fs14">Enter your Name</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Enter your your name" class="form-control fs11 input-border">
+        </div>
+
+        <div class="form-group">
+          <label class="control-lebel fs14">Choose Track</label>
+          <div class="rdio rdio-default fs11">
+            <input type="radio" name="track" id="android" value="android">
+            <label for="android">Android</label>
+          </div>
+          <div class="rdio rdio-default fs11">
+            <input type="radio" name="track" id="fullstack" value="fullstack">
+            <label for="fullstack">Fullstack</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-lebel fs14" id="output">What is the main outcome you hope to get from Moringa?</label>
+          <select name="" id="objective" class="form-control fs11 input-border">
+            <option value="">Select reason</option>
+            <option value="Strenghthening my completed degree to find a job">Strenghthening my completed degree to find a job</option>
+            <option value="No degree but am 4looking to get a certificate">No degree but am 4looking to get a certificate</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="control-lebel fs14">Which Languages are you familiar with</label>
+          <div class="ckbox ckbox-default fs11">
+            <input class="" type="checkbox" name="languages" id="javascript" value="javascript">
+            <label for="javascript">JavaScript</label>
+          </div>
+          <div class="ckbox ckbox-default fs11">
+            <input type="checkbox" name="languages" id="python" value="python">
+            <label for="python">Python</label>
+          </div>
+          <div class="ckbox ckbox-default fs11">
+            <input type="checkbox" name="languages" id="java" value="java">
+            <label for="javascript">Java</label>
+          </div>
+          <div class="ckbox ckbox-default fs11">
+            <input type="checkbox" name="languages" id="none" value="none">
+            <label for="javascript">None</label>
+          </div>
+        </div>
+        <button type="submit" onclick="" class="btn  btn-sm btn-warning btn btn-block" value="">Register</button>
+      </form>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
